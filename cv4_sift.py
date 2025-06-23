@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import os
 
 
-sift = cv2.SIFT_create(contrastThreshold = 0.01)
+sift = cv2.SIFT_create(contrastThreshold = 0.06)
 
 
 def detect(img):
